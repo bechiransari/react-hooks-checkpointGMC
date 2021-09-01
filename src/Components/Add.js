@@ -51,7 +51,7 @@ export default function SimpleModal({addMovie}) {
   const body = (
     <form style={modalStyle} className={classes.paper}>
      <label for="fname">name:</label><br/>
-  <input type="text" onChange={(e)=>setName(e.target.vulue)}/>
+  <input type="text" onChange={(e)=>setName(e.target.value)}/>
   <br/>
   <label for="lname">date:</label>
   <br/>
